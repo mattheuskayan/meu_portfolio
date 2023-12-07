@@ -14,7 +14,7 @@ header {
 header nav li {
     display: inline;
     font-size: 18px;
-    padding: 30px;
+    padding: 28px;
     margin-top: 14px;
 }
 
@@ -62,7 +62,7 @@ section .inicio {
 button {
     color:#fff;
     background: transparent;
-    border: solid 2px #fff;
+    border: solid 2.5px #fff;
     padding: 7px;
     border-radius: 20px;
     font-size: 18px;
@@ -84,29 +84,47 @@ button:hover {
 }
 
 .inicio h1{
-    margin-inline: 8px;
+    margin-inline: 25px;
     margin-top: 150px;
 }
 
 .inicio h2{
-    color: chocolate;
+    color: rgb(177, 89, 26);
     font-size: 130px;
-    margin-top: -40px;
+    margin-top: -35px;    
 }
 
 .inicio p{
-    margin-inline: 8px;
-    margin-top: -20px;
+    margin-inline: 25px;
+    margin-top: -25px;
+    font-size: 18px;
 }
 
 .redes {
+    display: flex;
+    flex-direction: column;
     max-width: 1280px;
     width: 100%;
-    margin: 0 auto;
+    margin-inline: 25px;
+    margin-top: 70px;
 }
 
-.redes a {
-    color: chocolate;
-    padding: 8px;
-    margin-top: 5px;
+i.fa-brands.fa-github{
+    color: rgb(198, 124, 71);
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 10px;
 }
+
+i.fa-brands.fa-linkedin {
+    color: rgb(198, 124, 71);
+    font-size: 25px;
+    padding: 5px
+}
+
+i.fa-solid.fa-arrow-up{
+    color: rgb(40, 40, 40);
+    font-size: 1.5em;
+    margin-inline: 9px;  
+}
+  
