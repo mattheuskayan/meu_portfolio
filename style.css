@@ -53,7 +53,7 @@ header nav li a{
 }
 
 header .logo,
-section .inicio {
+section .inicio .sobre {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -145,11 +145,8 @@ i.fa-solid.fa-arrow-up{
 
 /* ================================ Section 01 */
 
-section .container, .sobre {
-    background: linear-gradient(rgba(0, 0, 0, 0.5));
-    background-color: black;
-    background-size: cover;
-    background-position: center;
+section .container {
+   background-color: black;
     width: 100%;
     height: 100vh;
 }
@@ -166,10 +163,23 @@ section h2, p{
     margin-inline: center;
 }
 
-.container span {
+span {
     background: linear-gradient(to right,brown,rgb(204, 92, 13));
     background-clip: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;
 }
+
+img {
+    width: 350px;
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    display: flex;
+}
+
