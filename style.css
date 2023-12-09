@@ -4,14 +4,27 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-text-decoration: none;
-list-style: none;
 font-family: "Poppins", sans-serif;
 }
 
-body {
-    overflow: hidden;
+header {
+    color: #fff;
 }
+
+header nav li {
+    display: inline;
+    font-size: 14px;
+    padding: 18px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* body {
+    overflow: hidden;
+} */
 
 .background {
     background: linear-gradient(rgba(0, 0, 0, 0.5));
@@ -22,54 +35,41 @@ body {
     height: 100vh;
 }
 
-header {
-    display: flex;
-    justify-content: space-around;
-    max-width: 100%;
-    align-items: center;
-    padding-top: 1rem;
-}
-
-.cabeçalho-link {
-    display: flex;
-    gap: 3rem;
-    font-weight: 300;
+.logo {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
     cursor: pointer;
 }
 
-.cabeçalho-link a {
-    color: #fff;
-    font-size: 14px;
+.logo h1 {
+    margin-top: 25px;
+    font-size: 25px;
 }
 
-.cabeçalho-link a:hover {
+.logo a:hover {
     color: chocolate;
     transition: 0.3s all;
 }
 
-.logo {
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    /* border:  2px solid #fff; */
-    color: #fff;
-    /* border-radius: 50%; */
-    display: inline-flex;
+header .logo,
+section .inicio .sobre {
+    display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    cursor: pointer;
+    justify-content: space-between;
 }
 
 button {
     color:#fff;
     background: transparent;
-    border: solid 2px #fff;
-    padding: 5px;
-    border-radius: 15px;
-    font-size: 12px;
+    border: solid 2.5px #fff;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 300;
     width: 150px;
     cursor: pointer;
+    margin-top: 25px;
 }
 
 button:hover {
@@ -79,40 +79,107 @@ button:hover {
 }
 
 .inicio {
-    padding: 150px 0 0px 130px;    
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.text h1 {
-    color: #fff;
-    /* margin-top: 10px; */
-    height: 10px;
+.inicio h1{
+    color: rgb(198, 198, 198);
+    margin-inline: 25px;
+    margin-top: 100px;
+    font-size: 28px;
 }
 
-.text h2 {
-    color:chocolate;
-    font-size: 100px;
-    height: 125px;    
+.inicio h2{
+    font-size: 110px;
+    margin-top: -28px;
 }
 
-.text p {
-    color: #fff;
-    font-size: 15px;
-    /* font-weight: 300; */
-    height: 55px;
+.math{
+    /* background: -webkit-linear-gradient(left, brown); */
+    background: linear-gradient(to right,brown,rgb(204, 92, 13), brown);
+    background-clip: 0;  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.redes a {
-    color: chocolate;
-    padding: 8px;
-    margin-top: 5px;
+.inicio p{
+    margin-inline: 40px;
+    margin-top: -5px;
+    font-size: 16px;
+    color: rgb(198, 198, 198);
 }
 
-.btn {
+.redes {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 25px;
+    margin-top: 50px;
+}
+
+i.fa-brands.fa-github{
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    padding: 5px;
     margin-top: 10px;
+}
+
+i.fa-brands.fa-linkedin {
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    padding: 5px
+}
+
+i.fa-solid.fa-arrow-up{
+    color:rgb(123, 87, 157);
+    font-size: 1.5em;
+    margin-inline: 9px;  
+}
+
+/* ================================ Section 01 */
+
+section .container {
+   background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+section h2, p{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.container h2 {
+    display: block;
+    margin-inline: center;
+}
+
+span {
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+
+img {
+    width: 350px;
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .container {
     display: flex;
-    margin-top: 150px;
-    color: #fff;
 }
+
