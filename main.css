@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definição de fonte do cabeçalho */
+header,
+h1,
+section h2,
+section h3,
+form button {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+}
+
+/* Fonte resto do corpo */
+body, input, textarea, button {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Fundo inicio */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5));
+    background-image: url(./images/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+/* ===========================Cabeçalho */
+header {
+    padding-top: 30px;
+    color: #fff;
+}
+
+/* Ajuste das opções */
+header nav li {
+    display: block;
+    margin-left: 16px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+/* Alinhando opções a direita */
+ul li {
+    text-align: right;
+}  
+
+/* Logo */
+.container h1 {
+    color: #ecf0f1;;
+    padding-bottom: 60px;
+    font-size: 25px;
+}
+
+/* persona das opções */
+header nav li a {
+    color: #ecf0f1;;
+    text-decoration: none;
+}
+
+/* Persona opção contato */
+.conta {
+    color: #ccc;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+}
+
+/* hover opções */
+.container a:hover {
+    color: black;
+    transition: 0.3s all;
+}
+
+.container {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;    
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Botão Meu contato */
+/* button {
+    color:#ecf0f1;
+    background: transparent;
+    border: solid 1.5px #ecf0f1;;;
+    padding: px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 300;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 8px;
+    text-align: right;
+}
+button:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;    
+} */
+
+/* ===========================Inicio */
+.inicio {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.inicio h1{
+    color: rgb(198, 198, 198);
+    margin-inline: 25px;
+    padding-top: 60px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.inicio h2{
+    font-size: 110px;
+    margin-top: -28px;
+}
+
+.math{
+    /* background: -webkit-linear-gradient(left, brown); */
+    background: linear-gradient(to right,brown,rgb(204, 92, 13), brown);
+    background-clip: 0;  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inicio p{
+    margin-inline: 40px;
+    margin-top: -5px;
+    font-size: 16px;
+    color: rgb(198, 198, 198);
+}
+
+#sobre{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    
+}
+.brands-list img {
+    height: 24px;    
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+section {
+    padding: 24px 0;    
+    color: #fff;
+}
+
+section h2 {
+    margin-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 8px; 
+}
+
+section .container, h2
+.store-front {
+    margin-right: 270px;
+}
+
+img {
+    width: 350px;
+    margin-inline: 150px;
+}
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input :focus, textarea :focus {
+    outline-color: blue;
+}
+
+footer {
+    text-align: center;
+    background-color: blue;
+    color: #ecf0f1;
+    padding: 16px 0;
+
+}
