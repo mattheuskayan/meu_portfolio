@@ -42,7 +42,6 @@ header nav li {
     display: block;
     margin-left: 16px;
     font-size: 12px;
-    padding-top: 5px;
 }
 
 /* Alinhando opções a direita */
@@ -53,22 +52,22 @@ ul li {
 /* Logo */
 .container h1 {
     color: #ecf0f1;;
-    padding-bottom: 60px;
     font-size: 25px;
+    margin-bottom: 10px;
+    margin-inline: 10px;
 }
 
 /* persona das opções */
 header nav li a {
-    color: #ecf0f1;;
+    color: #a4a4a4;;
     text-decoration: none;
 }
 
 /* Persona opção contato */
 .conta {
-    color: #ccc;
+    color: #a4a4a4;;
     font-weight: 500;
-    text-decoration: underline;
-    text-decoration-color: #ccc;
+    font-weight: 650;
 }
 
 /* hover opções */
@@ -77,7 +76,7 @@ header nav li a {
     transition: 0.3s all;
 }
 
-.container {
+.container  {
     max-width: 980px;
     width: 100%;
     margin: 0 auto;    
@@ -127,10 +126,11 @@ button:hover {
 
 .inicio h2{
     font-size: 110px;
-    margin-top: -28px;
+    margin-top: -35px;
 }
 
-.math{
+/* Color Matheus Kayan */
+.color-h2 {
     /* background: -webkit-linear-gradient(left, brown); */
     background: linear-gradient(to right,brown,rgb(204, 92, 13), brown);
     background-clip: 0;  
@@ -139,58 +139,151 @@ button:hover {
 }
 
 .inicio p{
-    margin-inline: 40px;
-    margin-top: -5px;
+    margin-inline: 42px;
+    margin-top: -15px;
     font-size: 16px;
     color: rgb(198, 198, 198);
 }
+/* ===========================Redes */
+.redes {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 25px;
+    margin-top: 40px;
+}
 
-#sobre{
+i.fa-brands.fa-github {
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+i.fa-brands.fa-linkedin {
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    padding: 5px
+}
+
+i.fa-solid.fa-arrow-up{
+    color:rgb(123, 87, 157);
+    font-size: 1.5em;
+    margin-inline: 9px;  
+}
+/* ===========================Sobre */
+#sobre{  /* Cor de fundo pag sobre */
     background-color: black;
     width: 100%;
     height: 100vh;
-    
-}
-.brands-list img {
-    height: 24px;    
-}
-
-.brands-list li {
-    display: inline;
-    margin-right: 8px;
-}
-
-section .container {
-    align-items: flex-start;
-    padding-top: 50px;
 }
 
 section {
     padding: 24px 0;    
     color: #fff;
 }
+/* Ajuste de imagem */
+img {
+    width: 300px;
+    margin-inline: 200px;
+    padding-top: 46px;
+}
+
+.store-front img {
+    height: 50px;
+}
 
 section h2 {
-    margin-bottom: 8px;
+    margin-top: 8px;
+    font-weight: bolder;
 }
 
-section p {
-    margin-bottom: 8px; 
+i.fa-solid.fa-minus {
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 75px;
+    position: relative;
+    top: 20px;    
 }
 
-section .container, h2
-.store-front {
-    margin-right: 270px;
+section #sobre p {
+    margin-top: 10px;
+    font-size: 15px;
+    position: relative;
+    right: 25px;
 }
 
-img {
-    width: 350px;
-    margin-inline: 150px;
+section #sobre {
+    margin-right: 250px;
 }
 .store-front {
     margin-right: 32px;
 }
 
+#sobre .container{
+    position: relative;
+    right: 80px;
+    top: 50px;
+}
+/* ===========================Formação */
+#formação {  /* Cor de fundo pag sobre */
+    background-color: black;
+    height: 100vh;
+}
+
+#formação .container {
+    max-width: 743px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}
+
+i.fa-solid.fa-circle {
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 12px;
+    position: relative;
+    top: -2.8px;
+    right: 10px;    
+}
+/* Ajuste paragrafo */
+#formação p {
+    position: relative;
+    top: 45px;
+}
+
+/* Tamanho fonte */
+#formação .linha12 {
+    font-size: 20px;
+}
+/* Ajuste cor, posição de escola */
+#formação span {
+    position: relative;
+    left: 30px;
+    color: #5a5a5a;
+}
+
+#formação .linha3 {
+    position: relative;
+    left: 30px;
+    color: #ccc;
+}
+
+#formação .linha5 {
+    position: relative;
+    top: 30px;
+}
+/* ===========================Contato */
 .social-links img {
     height: 24px;
 }
@@ -248,9 +341,8 @@ input :focus, textarea :focus {
 }
 
 footer {
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
     text-align: center;
-    background-color: blue;
     color: #ecf0f1;
     padding: 16px 0;
-
 }
