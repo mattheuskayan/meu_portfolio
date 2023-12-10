@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+/* Definição de fonte do cabeçalho */
+header,
+h1,
+section h2,
+section h3,
+form button {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+}
+
+/* Fonte resto do corpo */
+body, input, textarea, button {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Fundo inicio */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5));
+    background-image: url(./images/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+/* ===================================================================Cabeçalho */
+header {
+    padding-top: 30px;
+    color: #fff;
+}
+
+/* Ajuste das opções */
+header nav li {
+    display: block;
+    margin-left: 16px;
+    font-size: 12px;
+}
+
+/* Alinhando opções a direita */
+ul li {
+    text-align: right;
+}  
+
+/* Logo */
+.container h1 {
+    color: #ecf0f1;;
+    font-size: 25px;
+    position: relative;
+    bottom: 15px;
+    margin-inline: 10px;
+}
+
+/* persona das opções */
+header nav li a {
+    color: #a4a4a4;;
+    text-decoration: none;
+}
+
+/* Persona opção contato */
+.conta {
+    color: #a4a4a4;;
+    font-weight: 500;
+    font-weight: 650;
+}
+
+/* hover opções */
+.container a:hover {
+    color: black;
+    transition: 0.3s all;
+}
+
+.container  {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;    
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Botão Meu contato */
+/* button {
+    color:#ecf0f1;
+    background: transparent;
+    border: solid 1.5px #ecf0f1;;;
+    padding: px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 300;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 8px;
+    text-align: right;
+}
+button:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;    
+} */
+
+/* ===================================================================Inicio */
+.inicio {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 55px;
+}
+
+.inicio h1{
+    color: rgb(198, 198, 198);
+    margin-inline: 25px;
+    padding-top: 60px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.inicio h2{
+    font-size: 110px;
+    margin-top: -35px;
+}
+
+/* Color Matheus Kayan */
+.color-h2 {
+    /* background: -webkit-linear-gradient(left, brown); */
+    background: linear-gradient(to right,brown,rgb(204, 92, 13), brown);
+    background-clip: 0;  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inicio p{
+    margin-inline: 42px;
+    margin-top: -15px;
+    font-size: 16px;
+    color: rgb(198, 198, 198);
+}
+/* ===================================================================Redes */
+.redes {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 25px;
+    margin-top: 40px;
+}
+
+i.fa-brands.fa-github {
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+i.fa-brands.fa-linkedin {
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    padding: 5px
+}
+
+i.fa-solid.fa-arrow-up{
+    color:rgb(123, 87, 157);
+    font-size: 1.5em;
+    margin-inline: 9px;  
+}
+/* ===================================================================Sobre */
+#sobre{  /* Cor de fundo pag sobre */
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+section {
+    padding: 24px 0;    
+    color: #fff;
+}
+/* Ajuste de imagem */
+img {
+    width: 300px;
+    margin-inline: 200px;
+    padding-top: 46px;
+}
+
+.store-front img {
+    height: 50px;
+}
+
+section h2 {
+    margin-top: 8px;
+    font-weight: bolder;
+}
+
+i.fa-solid.fa-minus {
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 75px;
+    position: relative;
+    top: 20px;    
+}
+
+section #sobre p {
+    margin-top: 10px;
+    font-size: 15px;
+    position: relative;
+    right: 25px;
+}
+
+section #sobre {
+    margin-right: 250px;
+}
+.store-front {
+    margin-right: 32px;
+}
+
+#sobre .container{
+    position: relative;
+    right: 80px;
+    top: 50px;
+}
+/* ===================================================================Formação */
+#formação {  /* Cor de fundo pag sobre */
+    background-color: black;
+    height: 100vh;
+}
+
+#formação .container {
+    max-width: 743px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}
+
+i.fa-solid.fa-circle {
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    background-clip: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 12px;
+    position: relative;
+    top: -2.8px;
+    right: 10px;    
+}
+/* Ajuste paragrafo */
+#formação p {
+    position: relative;
+    top: 45px;
+}
+
+/* Tamanho fonte */
+#formação .linha12 {
+    font-size: 20px;
+}
+/* Ajuste cor, posição de escola */
+#formação span {
+    position: relative;
+    left: 30px;
+    color: #5a5a5a;
+}
+
+#formação .linha3 {
+    position: relative;
+    left: 30px;
+    color: #ccc;
+}
+
+#formação .linha5 {
+    position: relative;
+    top: 30px;
+}
+/* ===================================================================Contato */
+#contact {
+    background-color: black;
+    height: 80svh;
+}
+
+#contact .container {
+    max-width: 743px;
+    display: block;
+}
+
+#contact h2 {
+    position: relative;
+    left: 40%;
+    bottom: 80px;
+} 
+
+#contact p {
+    position: relative;
+    top: 15px;
+    left: 12%;
+    font-size: 30px;
+    width: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    position: relative;
+    bottom: 140px;
+    left: 40%;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background: rgb(204, 92, 13);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: rgb(172, 85, 85);
+}
+
+input :focus, textarea :focus {
+    outline-color: brown;
+}
+
+footer {
+    background: linear-gradient(to right,brown,rgb(204, 92, 13));
+    text-align: center;
+    font-size:small;
+    color: #a4a4a4;
+    padding: 16px;
+         
+}
