@@ -1,7 +1,7 @@
-# meu_portfolio
+# Meu Portfolio
 
- Projeto do meu portfolio profissional
+ Projeto do meu portfolio profissional, para apresentação, estudos e atualizações.
 
- Link do projeto publicado na Vercel.com 😁 
+ Link do [projeto](https://meu-portfolio-flame-gamma.vercel.app/
+) publicado na Vercel.com 😁 
 
-👉 https://meu-portfolio-flame-gamma.vercel.app/
